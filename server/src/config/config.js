@@ -3,7 +3,7 @@ const path = require('path')
 module.exports = {
   port: process.env.PORT || 8085,
   db: {
-    database: process.env.DB_NAME || 'exp-vue-cart',
+    database: process.env.DB_NAME || 'vue-cart',
     user: process.env.DB_USER || 'root',
     password: process.env.DB_PASS || '',
     options: {
